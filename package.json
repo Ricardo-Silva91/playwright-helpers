@@ -1,0 +1,26 @@
+{
+  "name": "playwright-helpers",
+  "version": "1.0.0",
+  "description": "helper methods for playwright scripts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "https://github.com/Ricardo-Silva91",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ricardo-Silva91/playwright-helpers.git"
+  },
+  "keywords": [
+    "playwright"
+  ],
+  "bugs": {
+    "url": "https://github.com/Ricardo-Silva91/playwright-helpers/issues"
+  },
+  "homepage": "https://github.com/Ricardo-Silva91/playwright-helpers#readme",
+  "devDependencies": {
+    "eslint": "^8.12.0",
+    "eslint-config-google": "^0.14.0"
+  }
+}
