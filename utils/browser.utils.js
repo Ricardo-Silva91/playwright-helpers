@@ -11,7 +11,7 @@ const getTextOfElement = async ({page, query}) => {
     return undefined;
   }
 
-  const el = await page.locator(query);
+  const el = await page.locator(query).first();
   const texts = await el.allInnerTexts();
   const text = texts[0];
 
